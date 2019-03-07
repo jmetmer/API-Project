@@ -4,6 +4,7 @@
    <name>All tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-03-07T14:04:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -123,5 +124,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST examples/Tips and Tricks/Authentication/Basic Authentication</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>229df30c-e303-40f1-9109-670dbb174dbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST examples/Tips and Tricks/Authentication/Basic Authentication - failed</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

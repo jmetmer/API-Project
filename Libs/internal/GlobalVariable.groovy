@@ -39,19 +39,12 @@ public class GlobalVariable {
         allVariables.put('default', ['authorization' : 'Basic ZGVtb0BrYXRhbG9uLmNvbTpWQm5jZXRPU083MEU0TlZMWVFuaDlCMkQ=', 'issue_key' : 'KD-1000', 'update_issue_key' : 'KD-1001', 'latest_response' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
+        
         def selectedVariables = allVariables[profileName]
-		
-		for(object in selectedVariables){
-			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
-			if(overridingGlobalVariable != null){
-				selectedVariables.put(object.key, overridingGlobalVariable)
-			}
-		}
-
-        authorization = selectedVariables["authorization"]
-        issue_key = selectedVariables["issue_key"]
-        update_issue_key = selectedVariables["update_issue_key"]
-        latest_response = selectedVariables["latest_response"]
+        authorization = selectedVariables['authorization']
+        issue_key = selectedVariables['issue_key']
+        update_issue_key = selectedVariables['update_issue_key']
+        latest_response = selectedVariables['latest_response']
         
     }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Basic Authentication</name>
+   <name>Basic Authentication - failed</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b83229ae-5431-48c3-9b0b-fe2f3ceea442</testCaseGuid>
+   <testCaseGuid>67c67f0a-9fc9-4aaa-8f8f-45d458cef7a2</testCaseGuid>
 </TestCaseEntity>
