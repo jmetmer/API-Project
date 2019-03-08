@@ -4,7 +4,6 @@
    <name>All tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-07T14:04:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -130,5 +129,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST examples/Tips and Tricks/Authentication/Basic Authentication - failed</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c21c1f54-6897-4e18-8731-8ae5ffb61e84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST examples/Tips and Tricks/Authentication/Basic Authentication - failed again</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce4c346e-3101-4f55-a61d-c07f3285383b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOAP examples/calculator/SOAP12/Add</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86d6d14d-0b83-49db-9478-4bf659b99e94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SOAP examples/calculator/SOAP12/Add - Failed</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

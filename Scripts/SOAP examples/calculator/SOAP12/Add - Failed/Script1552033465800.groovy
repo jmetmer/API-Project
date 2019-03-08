@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('SOAP examples/calculator/SOAP12/Add'))
 
-WS.verifyElementText(response, 'AddResponse.AddResult', '3')
+WS.verifyElementText(response, 'AddResponse.AddResult', '4')
 
 println(response.getResponseText())
 
