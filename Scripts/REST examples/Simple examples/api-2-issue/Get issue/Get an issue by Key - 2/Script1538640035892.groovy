@@ -15,3 +15,16 @@ import internal.GlobalVariable as GlobalVariable
 
 // Send the request and execute verification scripts at WS test object
 WS.sendRequestAndVerify(findTestObject('REST examples/Simple examples/api-2-issue/Get issue/Get an issue by Key'))
+
+WS.verifyResponseStatusCode(response, 210)
+
+WS.verifyElementPropertyValue(response, 'fields.project.key', 'KD')
+
+WS.verifyElementPropertyValue(response, 'fields.issuetype.name', 'Task')
+
+WS.verifyElementPropertyValue(response, 'fields.priority.name', 'Medium')
+
+WS.verifyElementPropertyValue(response, 'fields.summary', 'REST - Create new RESTful test using Katalon Studio')
+
+WS.verifyElementPropertyValue(response, 'fields.description', 'As a Katalon user, I want to create a new RESTful test, so that I can ensure that my APIs work correctly.\r\n\r\nAC1 - Ability to create RESTful test using single end-point\r\nAC2 - Ability to import RESTful end-points from Swagger')
+
